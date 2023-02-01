@@ -1,0 +1,33 @@
+/*EXEMPLOS DE CÓDIGOS QUE FUNCIONAM COM O DISPLAY BLOCK*/
+
+div{
+    width: 150px;
+    margin: 100px;
+}
+
+/*EXEMPLOS DE CÓDIGOS QUE FUNCIONAM COM O DISPLAY INLINE*/
+
+strong{
+    margin: 30px;
+    border: 2px solid red;
+}
+
+/*O DISPLAY INLINE NÃO SEGUE O ESPAÇAMENTO VERTICAL, SOMENTE O HORIZONTAL. O CÓDIGO A SEGUIR NÃO AFETA O CÓDIGO POR QUE O ELEMENTO NÃO SEGUE O WIDTH E HEIGTH*/
+
+strong{
+    width: 200px;
+    height: 3px;
+}
+
+
+/*CASO SEJA NECESSÁRIO, É POSSIVEL ALTERAR O TIPO DE DISPLAY DO ELEMENTO*/
+
+/*
+div{
+    display: inline;
+}
+
+strong{
+    display: block;
+}
+*/          
