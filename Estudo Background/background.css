@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+
+main{
+    border: 5px dashed red;
+    height: 150px;
+    background: linear-gradient(rgba(50, 35, 101, 0), rgba(55,58, 200, 1) );
+}
+h1, p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 25px;
+    color: Darkblue;
+}

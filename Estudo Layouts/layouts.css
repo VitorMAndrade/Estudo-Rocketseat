@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.box1{
+    background-color: aquamarine;
+    /*position: abosolut;*/
+}
+
+.box2{
+    background-color: rgb(202, 35, 92);
+    /*position: relative;*/
+}
+
+.box3{
+    background: linear-gradient(rgb(45, 15, 90), rgb(150, 68, 220));
+}
