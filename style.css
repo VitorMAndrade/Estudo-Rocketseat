@@ -5,6 +5,8 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap');
+
 h1{
     text-align: left;
     margin-top: 25px;
@@ -12,15 +14,24 @@ h1{
     margin-right: 25px;
 }
 
-
-
 div{
-    margin-left: 25px;
+    display: block;
+    margin-left: 5%;
+    margin-top: 16px;
 }
 
 button{
-    margin-left: 80px;
+    margin-left: 5%;
     height: 35px;
     width: 105px;
     border-radius: 4px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace, serif;
+}
+
+button:hover{
+    background: linear-gradient(rgb(166, 201, 236), rgb(184, 169, 247));
+}
+a:hover{
+    color: aliceblue;
 }
